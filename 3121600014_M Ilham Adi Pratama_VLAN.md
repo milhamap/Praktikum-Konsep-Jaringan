@@ -1,7 +1,7 @@
 **LAPORAN PRAKTIKUM KONSEP JARINGAN**
 
 | Nama | Muhammad Ilham Adi Pratama |
-|:----:|:--------------------------:|
+|:----:|:--------------------------:| 
 |Kelas | 2 D4 IT A                  |
 | NRP  | 3121600014                 |
 
