@@ -1,6 +1,11 @@
+| Nama | Muhammad Ilham Adi Pratama |
+|:----:|:--------------------------:|
+|Kelas | 2 D4 IT A                  |
+| NRP  | 3121600014                 |
+
 ## A. Topologi
 
-![Topologi](images/Topologi.png)
+[![Topologi.png](https://i.postimg.cc/3w0dMC23/Topologi.png)](https://postimg.cc/SXqyC9ZP)
 
 Topologi di atas terdiri dari 10 Router. R1 sebagai router utama yang akan terhubung ke AS Number yang lain. Area R2 menggunakan routing protocol RIP, area R3 menggunakan OSPF, area R4 menggunakan Static Routing, sementara untuk menghubungkan area R2, R3, dan R4 menggunakan routing protocol BGP yang terhubung ke router pusat yakni R1.
 
@@ -48,25 +53,25 @@ Dalam pratikum kali ini kelompok kami terdiri dari Arianto Zaki Hamdalah (312160
 
 ## C. Table Routing
 
-![TableRouting](images/TableRouting.png)
+[![Table-Routing.png](https://i.postimg.cc/9FxMrNpW/Table-Routing.png)](https://postimg.cc/zVg5Q76M)
 
 Terlihat dengan perintah ip route print untuk melihat isi tabel routing, bahwa router R5 sudah terhubung dengan router R3 dan R6 yang menggunakan routing protocol OSPF. Selain itu, router R5 juga terhubung dengan router R4 yang menggunakan routing protocol Static Routing dan terhubung dengan router R2 yang menggunakan routing protocol RIP. Karena terhubung dengan R1 yang menggunakan protocol BGP pada router R2-R4, maka router R5 juga menerima table routing yang otomatis terhubung juga dengan R1.
 
 ## D. Test Koneksi
 
-![12.12.12.2](images/12.12.12.2.png)
+[![12-12-12-2.png](https://i.postimg.cc/Jnc7mT0C/12-12-12-2.png)](https://postimg.cc/9R0HYYyL)
 
-![13.13.13.3](images/13.13.13.3.png)
+[![13-13-13-3.png](https://i.postimg.cc/vT0Qxc5P/13-13-13-3.png)](https://postimg.cc/2LBpPjcv)
 
-![14.14.14.1](images/14.14.14.1.png)
+[![14-14-14-1.png](https://i.postimg.cc/m2rZfyGK/14-14-14-1.png)](https://postimg.cc/Jt9CjJ0Q)
 
-![27.27.27.7](images/27.27.27.7.png)
+[![27-27-27-7.png](https://i.postimg.cc/fLZZHxK2/27-27-27-7.png)](https://postimg.cc/Z9f1nvXp)
 
-![28.28.28.8](images/28.28.28.8.png)
+[![28-28-28-8.png](https://i.postimg.cc/RCg9RJnd/28-28-28-8.png)](https://postimg.cc/s1GtfXmG)
 
-![36.36.36.6](images/36.36.36.6.png)
+[![36-36-36-6.png](https://i.postimg.cc/L81p2yQQ/36-36-36-6.png)](https://postimg.cc/PCTcMMj1)
 
-![49.49.49.9](images/49.49.49.9.png)
+[![49-49-49-9.png](https://i.postimg.cc/ZRVkVX0n/49-49-49-9.png)](https://postimg.cc/7GGQLs3r)
 
 Gambar-gambar di atas merupakan test koneksi dengan perintah ping ke IP Address yang telah ditentukan.
 
